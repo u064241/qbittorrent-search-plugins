@@ -17,6 +17,8 @@ from helpers import download_file, retrieve_url
 
 class tokyotoshokan(object):
     url = 'http://tokyotosho.info'
+    name = 'Tokyo Toshokan'
+    supported_categories = {'all': '0', 'anime': '1', 'games': '14'}
 
     global page_count
     page_count = 1
